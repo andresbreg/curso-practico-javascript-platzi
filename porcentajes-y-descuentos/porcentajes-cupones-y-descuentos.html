@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porcentajes y Descuentos</title>
+    <title>Porcentajes, Cupones y Descuentos</title>
 </head>
 <body>
     <header>
-        <h1>Porcentajes y Descuentos</h1>
+        <h1>Porcentajes, Cupones y Descuentos</h1>
     </header>
     <section>
         <h2>Calcula el precio de tus productos a pagar con descuento</h2>
@@ -20,9 +20,12 @@
             <input id="porcentaje_descuento" type="number">
             <button type="button" onclick="calcularPrecioFinal()">Calcular el Precio con Descuento</button>
             <br>
+            <label for="cupon_descuento">¿Cuál es tu cupón de descuento?</label>
+            <input id="cupon_descuento" type="text">
+            <button type="button" onclick="calcularPrecio()">Calcular el Precio con Cupón de Descuento</button>
         </form>
         <p id="resultado"></p>
     </section>
-<script src="porcentajes-y-descuentos.js"></script>
+<script src="porcentajes-cupones-y-descuentos.js"></script>
 </body>
 </html>
